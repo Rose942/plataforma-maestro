@@ -1,0 +1,54 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma para Padres - Maestro Fernando</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Plataforma del Maestro Fernando Arzate Valadez</h1>
+        <p>Aquí encontrarás recados, actividades e incidencias y demas informacion importantes.</p>
+    </header>
+
+    <section id="recados">
+        <h2>Recados</h2>
+        <form id="recadoForm">
+            <label for="recado">Escribe el recado:</label>
+            <textarea id="recado" required></textarea>
+            <button type="submit">Subir Recado</button>
+        </form>
+        <div id="recadosList"></div>
+    </section>
+
+    <section id="actividades">
+        <h2>Actividades</h2>
+        <form id="actividadForm">
+            <label for="actividad">Escribe la actividad:</label>
+            <textarea id="actividad" required></textarea>
+            <button type="submit">Subir Actividad</button>
+        </form>
+        <div id="actividadesList"></div>
+    </section>
+
+    <section id="incidencias">
+        <h2>Incidencias</h2>
+        <form id="incidenciaForm">
+            <label for="incidencia">Reporta una incidencia:</label>
+            <textarea id="incidencia" required></textarea>
+            <button type="submit">Subir Incidencia</button>
+        </form>
+        <div id="incidenciasList"></div>
+    </section>
+
+    <section id="confirmaciones">
+        <h2>Confirmación de Lectura</h2>
+        <p>Confirma que has leído los recados o incidencias anteriores.</p>
+        <button id="confirmarLectura">Confirmar Lectura</button>
+        <div id="estadoConfirmacion"></div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
